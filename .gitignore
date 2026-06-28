@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# ---- uv ----
+# Keep uv.lock for reproducible installs.
+
+# ---- Node / frontend ----
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# ---- Env files (never commit secrets) ----
+.env
+backend/.env
+frontend/.env
+
+# ---- Runtime data ----
+backend/data/
+backend/models/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Local tooling ----
+.claude/
+
+# ---- Assignment / planning docs (not part of the deliverable) ----
+assignment_explanation.md
+original_assignment_question.md
+IMPLEMENTATION_PLAN.md
